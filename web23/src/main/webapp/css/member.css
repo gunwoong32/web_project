@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 3개의 선택자가 있다.
+   1)태그
+   2)클래스
+   3)id			 */
+#data{/* 선택: 아이디 */
+	font-style: italic;
+}
+input {
+	font-size: 40px;
+	height: 100px;
+}
+
+body { /* 선택: 태그 */
+	color: blue;
+	font-size: 40px;
+}
+
+.left { /* 선택: 클래스 - 그룹을 지어서 동일한 효과를 여러개 주고 싶을 때 사용 */
+	background: yellow;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+}
+
+.right {
+	background: green;
+	width: 300px; /* css에서 스타일을 숫자로 지정하는 경우는 반드시 px를 써주어야한다. */
+}
+
+.bottom {
+	background: maroon;
+	text-align: center;
+	height: 100px;
+}
+
+button {
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	
+}
