@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+	background-color: yellow;
+	font-style: italic;
+	color: red;
+}
+body button {
+	background-color: green;
+	font-size: 30px;
+	border: none;
+}

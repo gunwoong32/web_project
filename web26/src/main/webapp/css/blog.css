@@ -1,0 +1,73 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	/* 마우스를 a태그에 올렸을 때 스타일 지정 */
+	background: blue;
+	text-decoration: none;
+	color: white;
+	
+}
+
+
+#total{
+	width: 1600px;
+	height: 1600px;
+	background: lime;
+	
+}
+
+#top{
+	width: 1200px;
+	height: 100px;
+	background: aqua;
+}
+#top2{
+		width: 400px;
+		height: 100px;
+		background: black;
+		color: green;
+		position: fixed;
+		top: 15px;
+		right: 15px;
+		border-radius: 100px 0 100px 0;		
+		/* border-radius는 모서리가 시계방향으로 왼쪽위부터 1번 */
+		
+}
+#center{
+	width: 1600px;
+	height: 500px;
+	background: url('../img/car.jpg');
+				/*  ../  ->out.css기준으로[현재 보고있는 작업창기준] 이 폴더에서 나간다 */
+	
+	
+}
+
+
+li{
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: orange;
+	padding: 10px;		/* 글자 간격 띄우기 */
+	margin: 5px;		/* 상자 간격 띄우기 */
+	border-radius: 10px;		/* 모서리 둥글게 */
+}
+li:nth-child(2n+1){
+	/* 홀수번째만 지정 */
+	background: yellow;
+}
+
+
+
+li:hover {		/* 마우스 올렷을 때 색바뀌는거 */
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: pink;
+	padding: 10px;		/* 글자 간격 띄우기 */
+	margin: 5px;		/* 상자 간격 띄우기 */
+	border-radius: 10px;		/* 모서리 둥글게 */
+}
